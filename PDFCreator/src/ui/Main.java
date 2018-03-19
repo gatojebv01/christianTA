@@ -14,7 +14,7 @@ public class Main {
 		//frame.setContentPane(pane);
 		
 		frame.getContentPane().add(new PDFCreatorPanel());
-		frame.setResizable(false);
+		//frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
 		frame.setVisible(true);
